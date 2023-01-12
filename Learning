@@ -1,0 +1,78 @@
+import java.util.*;
+
+public class Learning {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+/*        // If Else - Conditions
+        int age = 16;
+        if(age>=18){
+            System.out.println("You Can Vote");
+        } else if (age > 13 && age < 18){
+            System.out.println("You are Teenager");
+        }
+        else
+            System.out.println("You Can't Vote");*/
+
+/*
+
+        // Print the largest of 2 num
+
+        int a = 10;
+        int b = 3;
+
+        if (a >= b){
+            System.out.println("A is largest");
+        }else System.out.println("B is largest");
+*/
+
+/*
+
+        // Print If A Number Is Odd or Even
+
+        int number = sc.nextInt();
+
+        if(number % 2 == 0){
+            System.out.println("Even");
+
+        }else{
+            System.out.println("Odd");
+        }
+*/
+
+/*        //Else If Statement
+
+        int age = 22;
+
+        if(age >= 18){
+            System.out.println("Adult");
+        }else if(age >= 13 && age <18){
+            System.out.println("Teen");
+        }else{
+            System.out.println("Child");
+        }*/
+/*
+
+        // Income Tax Calculator
+
+*/
+
+        int income = sc.nextInt();
+        int tax;
+
+        if(income < 500000) {
+            tax = 0;
+        }
+        else if (income >= 500000 && income < 1000000){
+            tax = (int) (income * 0.2);
+        }else {
+            tax = (int) (income * 0.3);
+        }
+        System.out.print("Your Tax is : "+ tax);
+*/
+
+
+        
+    }
+}

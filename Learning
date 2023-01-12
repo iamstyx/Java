@@ -72,7 +72,18 @@ public class Learning {
         System.out.print("Your Tax is : "+ tax);
 */
 
+        // Print The Largest of 3 Numbers
+        int a = 1;
+        int b = 3;
+        int c = 6;
 
+        if (a >= b && a >= c){
+            System.out.println("A is Largest");
+        }
+        else if (b >= c){
+            System.out.println("B is Largest");
+        }
+        else System.out.println("C is Largest");
         
     }
 }
